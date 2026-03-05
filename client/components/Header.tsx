@@ -17,7 +17,7 @@ export default function Header({
   return (
     <View className="flex-row items-center justify-between px-4 py-3 bg-white ">
       {/* Left side */}
-      <View className="flex-row items-center flex-1">
+      <View className="flex-row items-center flex-1 mr-2">
         {showBack && (
           <TouchableOpacity onPress={() => router.back()} className="mr-3">
             <Ionicons name="arrow-back" size={24} color={COLORS.primary} />
